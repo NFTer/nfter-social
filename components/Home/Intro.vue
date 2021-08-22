@@ -8,6 +8,7 @@
               For Creators, Explorers, Fans and NFTers
             </h3>
           </div>
+          <img class="mobile-intro-img" src="@/assets/intro.svg" alt="">
           <div class="component-body">
             <p>
               NFTer是基于以太坊的从社交出发的NFT平台，致力于扩展NFT的使用场景（再创造、团购、组合和验证 NFT以及NFT广告化）。
@@ -26,16 +27,20 @@
         </div>
       </div>
       <div class="flex-sm card component row col-12">
-        <div class="col-3">
+        <div class="col-3 intro2-img">
           <img
             class="image"
             src="@/assets/intro2.svg"
           >
         </div>
-        <div class="col-9 text-center flex align-center justify-center">
+        <div class="col-9 text-center flex align-center justify-center intro2-text">
           <div class="banner-get-in-touch-text text-center">
             <h3 class="title title--ad intro-row2">come for the TOOL, stay for the NETWORK</h3>
-            <div class="component row">
+            <img
+              class="mobile-intro-img"
+              src="@/assets/intro2.svg"
+            >
+            <div class="component row tool-usecase">
               <div class="col-3">
                 <h4 class="section-heading">
                   Accounts
@@ -82,6 +87,7 @@
 }
 .title {
   text-transform: none;
+  line-height: 3.5rem;
 }
 .component-body {
   margin-top: 50px;
@@ -132,6 +138,42 @@
   text-align: right;
   img {
     width: 80%;
+  }
+}
+.mobile-intro-img {
+  display: none;
+  max-width: 300px;
+  height: auto;
+  margin-top: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .n-button {
+    min-width: 100px;
+  }
+  .intro-img, .intro2-img {
+    display: none;
+  }
+  .intro-text, .intro2-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .mobile-intro-img {
+    display: block;
+  }
+  .tool-usecase {
+    flex-direction: column;
+    margin-top: 50px;
+    .col-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 2px dashed #231f20;
+    }
   }
 }
 </style>
