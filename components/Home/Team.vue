@@ -19,7 +19,7 @@
         </div>
         <div class="team-item">
           <img src="@/assets/images/team/xu.png" alt="xu" class="team-item-img">
-          <p class="team-item-name">@Yinjian.Xu</p>
+          <p class="team-item-name">@Yingjian.Xu</p>
           <p class="team-item-role">UI & UX</p>
         </div>
       </div>
