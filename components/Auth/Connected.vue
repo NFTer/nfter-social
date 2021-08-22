@@ -35,7 +35,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="less">
 .ggguJo {
     padding: 1rem;
     border-width: 1px;

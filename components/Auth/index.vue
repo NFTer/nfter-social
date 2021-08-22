@@ -56,7 +56,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="less">
 .my-dialog {
   background-color: #fffcf9!important;
   border-radius: 0;

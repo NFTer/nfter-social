@@ -76,7 +76,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .intro-row2 {
   margin-bottom: 40px;
 }

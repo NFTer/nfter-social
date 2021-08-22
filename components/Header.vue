@@ -157,7 +157,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .header-logo .logo {
   background-image: url(../assets/logo_icon.png);
   background-size: 50%;

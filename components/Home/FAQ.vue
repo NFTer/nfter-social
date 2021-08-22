@@ -49,7 +49,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .dashed-border {
   margin-bottom: 20px;
   padding-bottom: 20px;

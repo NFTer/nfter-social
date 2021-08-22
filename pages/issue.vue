@@ -41,7 +41,7 @@
       <g-footer />
     </div>
     <transition name="el-fade-in-linear">
-      <IssueLoading v-show="show" />
+      <!-- <IssueLoading v-show="show" /> -->
     </transition>
   </div>
 </template>
@@ -49,10 +49,10 @@
 <script>
 import { mapState } from 'vuex'
 import socialMoney from '@/api/eth/contract.js'
-import IssueLoading from '@/components/Loading'
+// import IssueLoading from '@/components/Loading'
 export default {
   components: {
-    IssueLoading
+    // IssueLoading
   },
   data() {
     return {
@@ -101,7 +101,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="less">
 input[type=text] {
   appearance: textfield;
   margin: 0;

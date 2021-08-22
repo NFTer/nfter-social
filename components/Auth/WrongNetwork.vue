@@ -9,7 +9,7 @@ export default {
   name: 'WrongNetwork'
 }
 </script>
-<style lang="scss">
+<style lang="less">
 .my-dialog {
   .error-tip {
     font-size: 1.5rem;

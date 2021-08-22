@@ -45,7 +45,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss" >
+<style scoped lang="less" >
 .font-center {
   text-align: center;
   color: #26498d;

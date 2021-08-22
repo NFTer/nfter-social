@@ -19,7 +19,8 @@
     "axios": "^0.19.2",
     "bignumber.js": "^9.0.0",
     "element-ui": "^2.13.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "web3": "^1.5.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
@@ -28,8 +29,8 @@
     "babel-plugin-component": "^1.1.1",
     "eslint": "^6.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2",
+    "less": "^4.1.1",
+    "less-loader": "^7",
     "svg-sprite-loader": "^5.0.0"
   }
 }

@@ -85,7 +85,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="less">
 input[type=text] {
   appearance: textfield;
   margin: 0;
