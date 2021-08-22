@@ -16,32 +16,20 @@
               <span class="year">2020</span>
             </p> -->
         <h1 class="site-title">
-          <span class="site-logo">SOCIAL MONEY
-            <!-- <svg class="logo-text" fill="#231f20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 745 82.48">
-                  <title>
-                    Home
-                  </title>
-                  <path d="M26.62,48.32C12.34,45.12,1,38.84,1,24.11,1,10.62,12.11,0,27.19,0,42.49,0,53.46,10.62,53.46,24.11v1.71a2.29,2.29,0,0,1-2.29,2.29H39.64a2.29,2.29,0,0,1-2.28-2.29V24.11c0-4.57-3.66-8.57-10.17-8.57s-9.94,3.43-9.94,8c0,4.34,4.23,7.08,10.17,8.23C43.3,35,55.06,41.58,55.06,57.46c0,14.85-11.65,25-27.87,25C11.42,82.48,0,71.4,0,57.46V54a2.29,2.29,0,0,1,2.29-2.28H13.82A2.29,2.29,0,0,1,16.11,54v3.43c0,5.26,4,9.37,11.08,9.37,6.85,0,11.31-4,11.31-9.37C38.5,52.55,35.18,50.26,26.62,48.32Z"></path>
-                  <path d="M93.31,64.09a1.08,1.08,0,0,0,1.14,1.14h27.08a2.29,2.29,0,0,1,2.29,2.29V78.94a2.29,2.29,0,0,1-2.29,2.29H79.61a2.29,2.29,0,0,1-2.29-2.29V3.54a2.29,2.29,0,0,1,2.29-2.29h41.47a2.29,2.29,0,0,1,2.29,2.29V15a2.29,2.29,0,0,1-2.29,2.29H94.46a1.08,1.08,0,0,0-1.14,1.14V32.1a1.08,1.08,0,0,0,1.14,1.14h25.7a2.29,2.29,0,0,1,2.29,2.28V47a2.29,2.29,0,0,1-2.29,2.28H94.46a1.08,1.08,0,0,0-1.14,1.14Z"></path>
-                  <path d="M180.69,67.74C180.46,66.83,180,66,179,66H161.61c-1,0-1.48.68-1.72,1.71l-3.2,11.77a2.2,2.2,0,0,1-2.17,1.72h-12c-1.83,0-2.52-1.26-2.29-2.29L160.7,3a2.2,2.2,0,0,1,2.17-1.71h15.31A2.2,2.2,0,0,1,180.35,3l20.33,76c.23,1-.46,2.29-2.29,2.29h-12a2.3,2.3,0,0,1-2.17-1.72Zm-4.11-19-5.48-27.42c-.11-.34-.23-.46-.57-.46h-.23c-.34,0-.46.11-.57.46l-5.48,27.42c-.23.91.23,1.26.91,1.26h10.51C176.35,50,176.81,49.69,176.57,48.78Z"></path>
-                  <path d="M295.58,1.26H307a2.29,2.29,0,0,1,2.29,2.29V78.94A2.29,2.29,0,0,1,307,81.22H295.58a2.29,2.29,0,0,1-2.29-2.29V50.38a1.08,1.08,0,0,0-1.14-1.14H274.79a1.08,1.08,0,0,0-1.14,1.14V78.94c0,1.26-1.6,2.29-2.86,2.29H259.94a2.29,2.29,0,0,1-2.29-2.29V3.54a2.29,2.29,0,0,1,2.29-2.29h11.42a2.29,2.29,0,0,1,2.29,2.29V32.1a1.08,1.08,0,0,0,1.14,1.14h17.36a1.08,1.08,0,0,0,1.14-1.14V3.54A2.29,2.29,0,0,1,295.58,1.26Z"></path>
-                  <path d="M369,67.74c-.23-.91-.68-1.71-1.72-1.71H349.94c-1,0-1.48.68-1.72,1.71L345,79.51a2.2,2.2,0,0,1-2.17,1.72h-12c-1.83,0-2.52-1.26-2.29-2.29L349,3a2.2,2.2,0,0,1,2.17-1.71h15.31A2.2,2.2,0,0,1,368.68,3l20.33,76c.23,1-.46,2.29-2.29,2.29h-12a2.3,2.3,0,0,1-2.17-1.72Zm-4.11-19-5.48-27.42c-.11-.34-.23-.46-.57-.46h-.23c-.34,0-.46.11-.57.46l-5.48,27.42c-.23.91.23,1.26.91,1.26H364C364.68,50,365.14,49.69,364.91,48.78Z"></path>
-                  <path d="M425.44,49.24a1.08,1.08,0,0,0-1.14,1.14V78.94A2.29,2.29,0,0,1,422,81.22H410.59a2.29,2.29,0,0,1-2.29-2.29V3.54a2.29,2.29,0,0,1,2.29-2.29h25.13a24.14,24.14,0,0,1,24,24c0,8.8-3.77,14.74-11.88,20.22-1.6,1.14-1.48,2.06-.68,3.77L459.36,77.8c.8,1.71.11,3.43-2.17,3.43H445.43a3.27,3.27,0,0,1-3.31-2.29L430.46,50.72a2.18,2.18,0,0,0-2.06-1.48Zm0-32a1.08,1.08,0,0,0-1.14,1.14V32.1a1.08,1.08,0,0,0,1.14,1.14h10.28a8,8,0,1,0,0-16Z"></path>
-                  <path d="M518.29,79.51a2.17,2.17,0,0,1-2.17,1.72H498.87a2.17,2.17,0,0,1-2.17-1.72L476.94,4a2.14,2.14,0,0,1,2.17-2.74h12.57A2,2,0,0,1,493.84,3l12.57,53.58c.11.46.34.8.8.8h.68c.46,0,.68-.34.8-.8L521.15,3a2,2,0,0,1,2.17-1.71h12.56A2.13,2.13,0,0,1,538.05,4Z"></path>
-                  <path d="M573.56,64.09a1.08,1.08,0,0,0,1.14,1.14h27.08a2.29,2.29,0,0,1,2.29,2.29V78.94a2.29,2.29,0,0,1-2.29,2.29H559.86a2.29,2.29,0,0,1-2.29-2.29V3.54a2.29,2.29,0,0,1,2.29-2.29h41.47a2.29,2.29,0,0,1,2.29,2.29V15a2.29,2.29,0,0,1-2.29,2.29H574.7a1.08,1.08,0,0,0-1.14,1.14V32.1a1.08,1.08,0,0,0,1.14,1.14h25.7a2.29,2.29,0,0,1,2.29,2.28V47a2.29,2.29,0,0,1-2.29,2.28H574.7a1.08,1.08,0,0,0-1.14,1.14Z"></path>
-                  <path d="M650.09,48.32c-14.28-3.2-25.59-9.48-25.59-24.22C624.5,10.62,635.58,0,650.66,0,666,0,676.93,10.62,676.93,24.11v1.71a2.29,2.29,0,0,1-2.29,2.29H663.11a2.29,2.29,0,0,1-2.28-2.29V24.11c0-4.57-3.66-8.57-10.17-8.57s-9.94,3.43-9.94,8c0,4.34,4.23,7.08,10.17,8.23,15.88,3.2,27.65,9.82,27.65,25.7,0,14.85-11.65,25-27.87,25-15.77,0-27.19-11.08-27.19-25V54a2.29,2.29,0,0,1,2.29-2.28h11.54A2.29,2.29,0,0,1,639.58,54v3.43c0,5.26,4,9.37,11.08,9.37,6.85,0,11.31-4,11.31-9.37C662,52.55,658.65,50.26,650.09,48.32Z"></path>
-                  <path d="M727.29,18.39V78.94A2.29,2.29,0,0,1,725,81.22H713.58a2.29,2.29,0,0,1-2.28-2.29V18.39a1.08,1.08,0,0,0-1.14-1.14H695.88A2.29,2.29,0,0,1,693.59,15V3.54a2.29,2.29,0,0,1,2.29-2.29h46.84A2.29,2.29,0,0,1,745,3.54V15a2.29,2.29,0,0,1-2.29,2.29H728.44A1.08,1.08,0,0,0,727.29,18.39Z"></path>
-                </svg> -->
+          <span class="site-logo"><span class="nft-title">NFTer</span>
           </span>
-          <span class="screenreader">SOCIAL MONEY</span>
+          <span class="screenreader">NFTer</span>
         </h1>
-        <h2 class="site-description">实现独立于平台的网络价值</h2>
+        <h2 class="site-description">A social platform based on NFT</h2>
       </a>
-      <Web3Status />
-      <!-- <div class="header-location">
-        <span v-if="metamask.isConnected" class="account-span">account: {{ metamask.account }}</span>
-        <a v-else href="javascript:void(0)" class="location section-heading" @click="login"> Login With MetaMask </a>
-      </div> -->
+      <!-- <Web3Status /> -->
+      <div class="header-location">
+        <a href="/">
+          <button class="status-button">
+            <span>Launch App 🚀</span>
+          </button>
+        </a>
+      </div>
     </section>
     <nav class="main-menu nav-main">
       <div class="menu-main-menu-container">
@@ -50,10 +38,10 @@
             <a
               class="menu-item menu-item-type-post_type menu-item-object-page"
               :class="{ 'current-menu-item': page === 'about' }"
-              target=""
-              href="/about/"
+              target="_blank"
+              href="https://shellteo.gitbook.io/nfter/"
             >
-              ℹ️ About<span class="hover-indicator">
+              📖 Docs<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="-2 -4 150.93 80.58"
@@ -74,9 +62,9 @@
               class=" menu-item menu-item-type-post_type menu-item-object-page"
               :class="{ 'current-menu-item': page === 'tokens' }"
               target=""
-              href="/tokens/"
+              href="#roadmap"
             >
-              token list<span class="hover-indicator">
+              🚌 Roadmap<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 414.84 111.47"
@@ -97,9 +85,9 @@
               class="menu-item menu-item-type-post_type menu-item-object-page"
               :class="{ 'current-menu-item': page === 'trade' }"
               target=""
-              :href="uniswapURL"
+              href="#faq"
             >
-              🦄 trade<span class="hover-indicator">
+              🙋 FAQ<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 394.1 152.8"
@@ -123,9 +111,9 @@
               class=" menu-item menu-item-type-post_type menu-item-object-page"
               :class="{ 'current-menu-item': page === 'issue' }"
               target=""
-              href="/issue/"
+              href="#team"
             >
-              ✔issue<span class="hover-indicator">
+              🧘 TEAM<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="-2 -4 150.93 80.58"
@@ -147,11 +135,11 @@
   </header>
 </template>
 <script>
-import Web3Status from './Web3Status'
+// import Web3Status from './Web3Status'
 import consts from '@/utils/consts'
 export default {
   components: {
-    Web3Status
+    // Web3Status
   },
   data() {
     return {
@@ -181,4 +169,50 @@ a.current-menu-item {
     opacity: 1;
   }
 }
+.nft-title {
+  color: #26498d;
+  background-image: -webkit-linear-gradient(right, #6055a2, #5964a5
+, #5078a9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.status-button {
+  display: flex;
+  width: 100%;
+  font-size: 0.9rem;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+  background-color: #fffcf9;
+  font-weight: 400;
+  flex-flow: row nowrap;
+  padding: 1rem;
+  border: 2px solid #231f20;
+  &:hover {
+    background-color: rgb(242, 242, 242);
+    color: #26498d;
+  }
+  span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    flex: 1 1 auto;
+    overflow: hidden;
+    margin: 0;
+    font-weight: 700;
+  }
+  .section-heading {
+    font-size: 1rem;
+  }
+}
+/* .image{
+  filter:brightness(90%) grayscale(100%) contrast(130%);transition:filter .9s;
+  -webkit-user-drag:none;
+  user-drag:none;
+  &:hover {
+    filter:brightness(100%) grayscale(0) contrast(100%);
+  }
+} */
 </style>

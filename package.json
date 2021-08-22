@@ -1,8 +1,8 @@
 {
-  "name": "social-money-nuxtjs",
+  "name": "nfter",
   "version": "1.0.0",
-  "description": "My splendiferous Nuxt.js project",
-  "author": "shellteo",
+  "description": "A social platform based on NFT",
+  "author": "albert",
   "private": true,
   "scripts": {
     "dev": "nuxt",
