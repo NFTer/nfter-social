@@ -1,39 +1,27 @@
 <template>
-  <div class="IE-flex-fix">
-    <div id="site-wrapper" style="opacity: 1; transform: translate(0px, 0px);">
-      <g-header />
-      <div id="site-inner" data-page-container="true">
-        <div class="xhr-page-contents" style="">
-          <div data-widget="page-draw#pageDrawer, url-reloader">
-            <Intro />
-            <Feature />
-            <Roadmap />
-            <FAQ />
-            <Team />
-          </div>
-        </div>
-      </div>
-      <g-footer />
-    </div>
-  </div>
+  <section class="container">
+    <Sidebar />
+    <section class="codeart-container">
+      <Header />
+      <Content />
+      <Footer />
+    </section>
+  </section>
 </template>
 
 <script>
 import { mapState } from 'vuex'
-import Intro from '../components/Home/Intro.vue'
-import Feature from '../components/Home/Feature.vue'
-import Roadmap from '../components/Home/Roadmap.vue'
-import FAQ from '../components/Home/FAQ.vue'
-import Team from '../components/Home/Team.vue'
 import { isEmptyAddress } from '@/utils/index'
-// import socialMoneyContractInstace from '@/api/eth/contract.js'
+import Sidebar from '@/components/NFT/Sidebar.vue'
+import Header from '@/components/NFT/Header.vue'
+import Content from '@/components/NFT/Content.vue'
+import Footer from '@/components/NFT/Footer.vue'
 export default {
   components: {
-    Intro,
-    Feature,
-    Roadmap,
-    FAQ,
-    Team
+    Sidebar,
+    Header,
+    Content,
+    Footer
   },
   computed: {
     ...mapState(['token']),
@@ -45,58 +33,23 @@ export default {
 }
 </script>
 
-<style scoped lang="less" >
-.font-center {
-  text-align: center;
-  color: #26498d;
-}
-.issue-section {
-  text-align: left;
-  li {
-    margin: 1rem 0;
-  }
-}
-.a-issue {
-  color:#26498d;
-  text-decoration: underline;
-}
-.site-title {
-  .site-logo {
-    font-size: 4rem;
-  }
-}
-.human-coin {
+<style lang="less">
+.codeart-container {
+  flex-direction: column;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  .coin {
-    width: 5rem;
-    height: 5rem;
-    background: url(../assets/coin.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .fh {
-      font-size: 4rem;
-      margin: 0 10px;
-  }
-  .p1 {
-      width: 5rem;
-  }
-  .p2 {
-      width: 5rem;
-  }
-  .icon {
-      font-size: 4rem;
-  }
-  .icon2 {
-      font-size: 3rem;
-  }
+  flex: 1;
+  flex-basis: auto;
+  box-sizing: border-box;
+  min-width: 0;
 }
-.card-special-border {
-  border: 2px #231f20 dashed;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-basis: auto;
+  box-sizing: border-box;
+  min-width: 0;
+  height: 100vh;
+  width: 100vw;
 }
 </style>
