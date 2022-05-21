@@ -28,6 +28,12 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  router: {
+    middleware: 'i18n'
+  },
+  generate: {
+    routes: ['/', '/zh']
+  },
   /*
   ** Customize the progress-bar color
   */
@@ -45,7 +51,8 @@ export default {
   */
   plugins: [
     '~/plugins/vue_components.js',
-    '~/plugins/element-ui.js'
+    '~/plugins/element-ui.js',
+    '~/plugins/i18n.js'
   ],
   /*
   ** Nuxt.js dev-modules

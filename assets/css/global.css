@@ -1,3 +1,7 @@
 * {
     font-family: -apple-system,SF UI Display,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 }
+.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
