@@ -22,5 +22,8 @@ $ yarn generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ## deploy
-1. 修改env
-2. 修改utils/consts.js
+1. modify env
+2. modify utils/consts.js
+
+# Refs
+- https://tryroll.com/social-money-open-communities/

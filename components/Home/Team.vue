@@ -3,7 +3,7 @@
     <div class="card">
       <div class="component-header">
         <h3 class="title title--ad">
-          Team
+          {{ $t("team") }}
         </h3>
       </div>
       <div class="component-body">

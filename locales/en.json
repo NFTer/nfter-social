@@ -1,0 +1,80 @@
+{
+    "docs": "Docs",
+    "roadMap": "RoadMap",
+    "FAQ": "FAQ",
+    "team": "Teams",
+    "intro": {
+        "title": "For Creators, Explorers, Fans and NFTers",
+        "p1": "NFTer is a social-based NFT platform based on Ethereum, dedicated to expanding the use scenarios of NFT (re-creation, group purchase, combination and verification of NFT, and NFT advertising).",
+        "p2": "Web3 wants to decouple the value of communities from the platforms, from closed platforms to open communities to realize cross-platform network value."
+    },
+    "create": "Create",
+    "explore": "Explore",
+    "sec2": {
+        "title": "Come for the <span style='color: #26498d'>Tool</span> <br> Stay for the <span style='color: #26498d'>Network</span>",
+        "list": [{
+            "title": "ACCOUNTS",
+            "desc": "Create DID with NTNFT"
+        }, {
+            "title": "AVATAR",
+            "desc": "PFP NFT Markets"
+        }, {
+            "title": "AUCTION",
+            "desc": "Social Auction of NFT"
+        }, {
+            "title": "ADS",
+            "desc": "Ad mode NFT"
+        }]
+    },
+    "sec3List": [{
+        "title": "POST & MINT",
+        "desc": "Anyone can create",
+        "detail": "In the process of Internet from 2.0 to 3.0, it is necessary to improve the community economy around creators, and NFT perfectly conforms to the ownership economy of creator ecology. For our platform, anyone can create a feed, and posting an NFT is like posting a feed. The released NFT can flow freely on the social market, and gradually build an open and permissionless platform based on the creator economy. And compared with air coins, NFT is content-oriented and can better capture the native value of network content."
+    }, {
+        "title": "SHOW",
+        "desc": "Show off on social media",
+        "detail": "While the NFT market continues to expand, we also need to pay attention to the use cases of NFTs. We need a place for users to display their NFTs. It can be said that showing off is the original demand of human beings. BitMEX founder Arthur Hayes believes that the value of NFTs is to present themselves to others, and it will represent the ultimate way to demonstrate social status in a purely digital world. The current atmosphere of NFT is scarce and worthless. The reason for its worthlessness is that there are too few NFT use cases. We are currently committed to expanding the use cases of NFT."
+    }, {
+        "title": "REWARD",
+        "desc": "Participants are rewarded",
+        "detail": "For social platforms, the first NFT cancels the rent-seeking intermediary, whether it is direct sales or sharing to get a share, it can directly connect creators and consumers. Second, just like the fan economics of a thousand die-hard fans, NFT provides creators with the independent pricing power of content to maximize the creator's income. The third is that we are committed to creating a license-free market, and the platform does not require marketing costs. Whether it is our subsequent development of the NFT advertising system or the model of taking a share, it can directly generate revenue for the platform."
+    }],
+    "roadMapList": [{
+        "title": "Step1. Earth",
+        "desc": "Complete the development of the first version, starting from the tool of user avatar, to create a social network, specifically for users to connect wallets, to publish news like twitter and to publish NFT news, and to edit their own personal information, and can set system restrictions NFT is the avatar.",
+        "feat": ["Personal avatars can be set to own NFTs", "Publish NFT news"]
+    }, {
+        "title": "Step2. Mars",
+        "desc": "This version is mainly for the construction of the user account system. The first one is to complete the function of social authentication, and you can link to your own account through different social media. The second one is to create your own account as NTNFT, your social media Identity is your identity authentication on the blockchain network, and other platforms can use your digital identity to authenticate, similar to a DID identity. For the NFT news released by users, users can directly purchase, add market functions, and there will be an NFT LaunchPad, in which some avatar NFTs are released.",
+        "feat": ["User Community Authentication Features", "Minting of NTNFT for User Accounts", "Marketplace and NFT LaunchPad"]
+    }, {
+        "title": "Step3. Solar",
+        "desc": "In the early days of social networks, how to attract new users and retain old users is an eternal topic. In this part, we will launch more NFT tools, as well as help connect creators and fans, remove middlemen, and help the entire network The participants in the NFT tool will launch the NFT signature mode. Users can digitally sign the NFT by asking the creator or big V to establish the relationship between fans and creators, and improve or enhance the NFT asset itself. The above will also involve NFT synthesis, as well as multi-person NFT synthesis, we call it the social synthesis of NFT, as well as the fragmentation function of NFT. There is also the development of the mode of NFT sharing and deduction to help participants generate income and increase revenue to achieve the purpose of improving user stickiness. ",
+        "feat": ["NFT sharing and purchasing mode", "NFT digital signature", "NFT synthesis (social synthesis)", "NFT fragmentation function social distribution function"]
+    }, {
+        "title": "Step4. Galaxy",
+        "desc": "Finally came to the galaxy, the keynote of the galaxy is exploration. The platform will have its own Treasury, where will the revenue come from, the first part, decentralized NFT advertising development and exploration (the advertising model of the Hubberg tax) ), the second part of the revenue comes from LaunchPad NFT's commission (NFT's royalty standard). In addition to Treasury, we will explore how to organize from the platform to the DAO",
+        "feat": ["Advertising model of NFT's Hubberg tax in social sharing", "NFT's royalty standard", "NFT social DAO"]
+    }, {
+        "title": "Step5. Universe",
+        "desc": "Everything we do is to be part of the Metaverse. We believe that the most important thing in the Metaverse is neutrality or decentralization, which cannot be controlled by any person or institution, so we made a DAO. Meta Another important point in the universe is the end of item ownership, which is now NFT. We hope to call it a social network in the Metaverse. Everyone can show themselves to their friends through NFTer. So are you ready? The spacecraft will eventually sail to the stars sea!",
+        "feat": []
+    }],
+    "feature": "Feature: ",
+    "faqList": [{
+        "q": "Q: What is NFT?",
+        "a": "A: NFTs originated in EIP-721 (Ethereum Implementation Proposal 721) at the end of 2017. Non-fungible tokens contain identifying information recorded in their smart contracts. This information enables each token to have They are unique and therefore cannot be directly replaced by another token. They cannot be exchanged for one, because no two NFTs are the same. Also, non-fungible tokens are indivisible, just like they cannot be given to others to sing Like a part of a ticket, part of the ticket is not valuable and cannot be exchanged."
+    }, {
+        "q": "Q: What is SocialFi?",
+        "a": "A: The important direction of SocialFi is to financialize and deFi this 'community influence', Through social tokens, participants and issuers can benefit from 'influence' more directly. "
+    }, {
+        "q": "Q: What are the standards for NFT?",
+        "a": "A: There are two types of NFT types, ERC721 and ERC1155. ERC721 is a smart contract standard interface for NFTs and is the most commonly used NFT standard. The earliest Mystery Cat is the ERC721 interface. ERC1155 is a game development service. A brand new token standard released by provider Enjin aims to help game developers save money and facilitate atomic swaps to improve transaction efficiency between tokens."
+    }, {
+        "q": "Q: What is NTNFT?",
+        "a": "A: Non-transferable non-fungible token ERC-1238. This standard applies to certificates or experiences as it cannot be transferred to others. Currently ERC-1238 is just a proposal and has not yet been implemented in Ethereum , so cannot be supported by wallets etc."
+    }, {
+        "q": "Q: What does the Haberg tax do?",
+        "a": "A: The Harberger tax was proposed to solve the circulation of idle private assets. Private assets will lead to monopoly, and extreme public ownership can easily lead to the tragedy of the commons. The proposal of this system is also thinking about Is there a compromise between absolute private ownership and public ownership. The rules are: 1. Submit your own valuation for privately owned property and, based on the valuation, submit the corresponding tax every year. 2. Anyone in the market can pay you submitted valuations and forced a deal."
+    }]
+}

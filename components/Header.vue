@@ -24,11 +24,9 @@
       </a>
       <!-- <Web3Status /> -->
       <div class="header-location">
-        <a href="/">
-          <button class="status-button">
-            <span>Launch App 🚀</span>
-          </button>
-        </a>
+        <button class="status-button disabled" disabled>
+          <span>🚀 Launch App</span>
+        </button>
       </div>
     </section>
     <nav class="main-menu nav-main">
@@ -41,7 +39,7 @@
               target="_blank"
               href="https://docs.nfter.social/"
             >
-              📖 Docs<span class="hover-indicator">
+              📖 {{ $t("docs") }}<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="-2 -4 150.93 80.58"
@@ -64,7 +62,7 @@
               target=""
               href="#roadmap"
             >
-              🚌 Roadmap<span class="hover-indicator">
+              🚌 {{ $t("roadMap") }}<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 414.84 111.47"
@@ -87,7 +85,7 @@
               target=""
               href="#faq"
             >
-              🙋 FAQ<span class="hover-indicator">
+              🙋 {{ $t("FAQ") }}<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 394.1 152.8"
@@ -113,7 +111,7 @@
               target=""
               href="#team"
             >
-              🧘 TEAM<span class="hover-indicator">
+              🧘 {{ $t("team") }}<span class="hover-indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="-2 -4 150.93 80.58"

@@ -5,21 +5,21 @@
         <div class="col-6 intro-text">
           <div class="component-header">
             <h3 class="title title--ad">
-              For Creators, Explorers, Fans and NFTers
+              {{ $t("intro.title") }}
             </h3>
           </div>
           <img class="mobile-intro-img" src="@/assets/intro.svg" alt="">
           <div class="component-body">
             <p>
-              NFTer是基于以太坊的从社交出发的NFT平台，致力于扩展NFT的使用场景（再创造、团购、组合和验证 NFT以及NFT广告化）。
+              {{ $t("intro.p1") }}
             </p>
             <p>
-              web2.0大多企业都在做平台，但是web3.0想将社区的价值与它们所存在的平台脱钩，从封闭平台到开放社区，实现跨平台的网络价值。
+              {{ $t("intro.p2") }}
             </p>
           </div>
           <div class="nft-btns">
-            <button class="n-button">🧭 Explore</button>
-            <button class="n-button">Create</button>
+            <button class="n-button disabled" disabled>🧭 {{ $t("explore") }}</button>
+            <button class="n-button disabled" disabled>💡 {{ $t("Create") }}</button>
           </div>
         </div>
         <div class="col-6 intro-img">
@@ -35,7 +35,7 @@
         </div>
         <div class="col-9 text-center flex align-center justify-center intro2-text">
           <div class="banner-get-in-touch-text text-center">
-            <h3 class="title title--ad intro-row2">come for the TOOL, stay for the NETWORK</h3>
+            <h3 class="title title--ad intro-row2" v-html="$t('sec2.title')" />
             <img
               class="mobile-intro-img"
               src="@/assets/intro2.svg"
@@ -43,34 +43,34 @@
             <div class="component row tool-usecase">
               <div class="col-3">
                 <h4 class="section-heading">
-                  Accounts
+                  {{ $t("sec2.list[0].title") }}
                 </h4>
                 <div class="section-text">
-                  <a href="tel:02 6239 4351">通过NTNFT打造DID</a>
+                  <a href="tel:02 6239 4351">{{ $t("sec2.list[0].desc") }}</a>
                 </div>
               </div>
               <div class="col-3">
                 <h4 class="section-heading">
-                  Avatar
+                  {{ $t("sec2.list[1].title") }}
                 </h4>
                 <div class="section-text">
-                  <a href="tel:02 6251 1621">头像类型NFT市场</a>
+                  <a href="tel:02 6251 1621">{{ $t("sec2.list[1].desc") }}</a>
                 </div>
               </div>
               <div class="col-3">
                 <h4 class="section-heading">
-                  Auction
+                  {{ $t("sec2.list[2].title") }}
                 </h4>
                 <div class="section-text">
-                  <a href="tel:0436 455 551">NFT的社交拍卖</a>
+                  <a href="tel:0436 455 551">{{ $t("sec2.list[2].desc") }}</a>
                 </div>
               </div>
               <div class="col-3">
                 <h4 class="section-heading">
-                  ADs
+                  {{ $t("sec2.list[3].title") }}
                 </h4>
                 <div class="section-text">
-                  <a href="tel:0436 455 551">广告模式的NFT</a>
+                  <a href="tel:0436 455 551">{{ $t("sec2.list[3].desc") }}</a>
                 </div>
               </div>
             </div>
@@ -175,5 +175,8 @@
       border-bottom: 2px dashed #231f20;
     }
   }
+}
+.blue {
+  color: #6055a2;
 }
 </style>
